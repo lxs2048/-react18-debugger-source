@@ -4,7 +4,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   define: {
-    __DEV__: true, // 设置为false跳过 if(__dev__)的开发逻辑
+    __DEV__: false, // 设置为false跳过 if(__dev__)的开发逻辑
     __EXPERIMENTAL__: true,
     __PROFILE__: true,
   },

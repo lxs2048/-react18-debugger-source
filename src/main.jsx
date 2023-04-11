@@ -1,8 +1,5 @@
-import * as React from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App'
-import './index.css'
-debugger
-createRoot(document.getElementById('root')).render(
-  <App />
-)
+const ele = <div className="box" key={'hi'}>
+  <span>hello</span>
+  world
+</div>
+console.log(ele,'数据😎😎😎ele');
